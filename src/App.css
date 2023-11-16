@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  background-image: url(./bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -13,15 +18,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  background: rgba(43, 98, 139, 0.5);
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.List-table {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .App-link {
